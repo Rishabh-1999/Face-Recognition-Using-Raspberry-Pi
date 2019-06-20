@@ -2,7 +2,7 @@
 
 <hr>
 
-Face Recognition Using Python.
+Face Recognition Using Raspberry-Pi.
 
 Pre-requisites/Libaray
 ----------------------
