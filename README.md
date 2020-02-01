@@ -1,20 +1,30 @@
-### Face-Recognition-Using-Raspberry-Pi
+# Face-Recognition-Using-Raspberry-Pi
+Face Recognition System using Raspberry Pi for Marking attendance.
 
-<hr>
-
-Face Recognition Using Raspberry-Pi.
-
-Pre-requisites/Libaray
+Libaray used
 ----------------------
+- CMAKE module
+- face_recognition  module
+- numpy module
+- os module
+- pymysql module
+- sys module
+- imutils module
+- Amazon Relational Database module
 
-- CMAKE
-- face_recognition
-- numpy
-- os
-- pymysql
-- sys
-- imutils
-- Amazon Relational Database
+Project Architecture
+--------------------
+It is diveded into three parts
+1. Raspberry Pi
+2. Android App
+3. AWS EC2 Instances
+
+Work
+-----
+- This module recognize faces stored in memory by making *encoding* in xml format of each person/student and after recognizing person/student, it send send signal/data to AWS server and mark attendence.
+- In case of unknown person/student it simply says *Unknown*.
+- Train before adding students/persons. So that image can be changed to encoding format so that he/she can be recognized 
+**Note: Wifi/Internet should be connected to Raspberry Pi to avail this system.**
 
 Preview
 ---------------
